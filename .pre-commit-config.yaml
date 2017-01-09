@@ -1,0 +1,18 @@
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    sha: 96fb7fa10f2f4c11ed33482a9ad7474251e5e97f
+    hooks:
+    -   id: trailing-whitespace
+    -   id: check-json
+    -   id: pretty-format-json
+        args:
+        - --indent
+        - '2'
+        - --no-sort-keys
+    -   id: check-merge-conflict
+    -   id: check-symlinks
+    -   id: check-json
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    sha: 3f5585a65eeec878e779a5630628db158ba3dab1
+    hooks:
+    -   id: eslint
+        additional_dependencies: ['eslint@3.12.2', 'eslint-config-google@0.7.1']

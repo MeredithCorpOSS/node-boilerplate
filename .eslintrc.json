@@ -1,0 +1,11 @@
+{
+  "extends": "google",
+  "installedESLint": true,
+  "rules": {
+    "new-cap": 0,
+    "max-len": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 7
+  }
+}
