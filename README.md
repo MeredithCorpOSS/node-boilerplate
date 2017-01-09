@@ -12,7 +12,7 @@
     * editorconfig   - http://editorconfig.org
     * eslint - http://eslint.org/
     * precommit - http://pre-commit.com
-    * infra folder for storing teraform and other keys, migrations and db setups, es and logstash schemas etc 
+    * infra folder for storing teraform and other configs, migrations and db setups, es and logstash schemas etc 
     * config folder for constant and config - config file is not commited only keys are commited in the default file
 
 ## Setup(mac)
