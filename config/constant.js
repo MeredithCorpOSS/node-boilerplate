@@ -4,4 +4,4 @@ function constant() {
     }
 };
 
-modeule.exports = constant();
+module.exports = constant();
