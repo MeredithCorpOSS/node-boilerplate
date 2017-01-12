@@ -1,7 +1,7 @@
 function config() {
-    return {
-
-    }
+  return {
+    config_name': 'config_value'
+  }
 };
 
-modeule.exports = config();
+module.exports = config();

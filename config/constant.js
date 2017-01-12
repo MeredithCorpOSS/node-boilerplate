@@ -1,7 +1,7 @@
 function constant() {
-    return {
-
-    }
+  return {
+      'constant_name' : 'constant_value'
+  }
 };
 
-modeule.exports = constant();
+module.exports = constant();
