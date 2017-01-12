@@ -1,11 +1,11 @@
 # Documentation
 
-Use this for barebone node project or use this with express generator(there may be a boilerplate for express though).
+Use this starter for barebone node project
 
 ## Usage
 
 * Clone this repo into your repo
-* Rename PROJECTNAME in the codebase like in package.json, index.js, this file
+* Rename PROJECTNAME in the codebase like in package.json, index.js, Readme
 * Replace this file with README.default.md
 * configure .vscode/launch.json if you use vscode
 
