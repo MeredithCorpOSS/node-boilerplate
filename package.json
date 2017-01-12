@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "PROJECTNAME",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "prepublish": "pre-commit install"
   },
   "dependencies": {
+    "debug": "^2.6.0"
   },
   "devDependencies": {
     "eslint": "3.12.2",
