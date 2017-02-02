@@ -10,7 +10,6 @@
         - --no-sort-keys
     -   id: check-merge-conflict
     -   id: check-symlinks
-    -   id: check-json
 -   repo: https://github.com/pre-commit/mirrors-eslint
     sha: 3f5585a65eeec878e779a5630628db158ba3dab1
     hooks:
