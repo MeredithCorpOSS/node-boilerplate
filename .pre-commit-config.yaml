@@ -1,5 +1,5 @@
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    sha: 96fb7fa10f2f4c11ed33482a9ad7474251e5e97f
+    sha: a11d9314b22d8f8c7556443875b731ef05965464
     hooks:
     -   id: trailing-whitespace
     -   id: check-json
@@ -10,8 +10,14 @@
         - --no-sort-keys
     -   id: check-merge-conflict
     -   id: check-symlinks
+    -   id: check-case-conflict
+    -   id: detect-private-key
+    -   id: detect-aws-credentials
+        args:
+        - --allow-missing-credentials
+    -   id: check-added-large-files
 -   repo: https://github.com/pre-commit/mirrors-eslint
-    sha: 3f5585a65eeec878e779a5630628db158ba3dab1
+    sha: v3.14.0
     hooks:
     -   id: eslint
         additional_dependencies: ['eslint@3.12.2', 'eslint-config-google@0.7.1']
